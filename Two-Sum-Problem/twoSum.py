@@ -6,3 +6,4 @@ class Solution:
             if diff in valueMap:
                 return [valueMap[diff], index]
             valueMap[value] = index
+        return None     # no solution
