@@ -1,2 +1,4 @@
-# LeetCode-Solutions
-This repository contains solutions of various LeetCode problems
+<h1 align="center">LeetCode Solutions</h1>
+
+### Description
+This repository contains `Solution` of various `LeetCode Problems`.
