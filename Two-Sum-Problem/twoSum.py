@@ -3,7 +3,7 @@ class Solution:
         valueMap = {}    # value : index
         for index, value in enumerate(nums):
             diff = target - value
-            if diff in valueMap:
+            if diff in valueMap:        # if difference found
                 return [valueMap[diff], index]
-            valueMap[value] = index
+            valueMap[value] = index     # if difference not found
         return None     # no solution
