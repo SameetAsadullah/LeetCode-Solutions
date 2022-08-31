@@ -1,4 +1,14 @@
 /**
+ * Algorithm:
+ * We are iterating and inserting elements into the hash table, 
+ * we also look back to check if current element's complement already 
+ * exists in the hash table. If it exists, we have found a solution 
+ * and return the indices immediately.
+ * Time complexity: O(n)
+ * Space complexity: O(n)
+ */
+
+/**
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
